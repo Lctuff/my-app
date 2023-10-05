@@ -4,7 +4,7 @@ class Checkout extends Component {
     return (
       <button
         onClick={() => this.props.onCheckout()}
-        className="btn btn-primary"
+        className="btn btn-primary position-absolute bottom-0 end-0 translate-middle-x"
       >
         Checkout
       </button>
